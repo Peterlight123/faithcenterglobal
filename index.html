@@ -6,6 +6,25 @@
   <title>Faith Center Global | Home</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .hero-section {
+      background: url('church-bg.jpg') no-repeat center center/cover;
+      height: 90vh;
+    }
+    .main-color {
+      color: #003366; /* Navy blue */
+    }
+    .btn-faith {
+      background-color: #dc3545; /* Red */
+      color: white;
+    }
+    .btn-faith:hover {
+      background-color: #a71d2a;
+    }
+  </style>
 </head>
 <body>
 
@@ -26,6 +45,7 @@
         <li class="nav-item"><a class="nav-link" href="sermons.html">Sermons</a></li>
         <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
         <li class="nav-item"><a class="nav-link" href="ministries.html">Ministries</a></li>
+        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
     </div>
@@ -33,12 +53,12 @@
 </nav>
 
 <!-- Hero Section -->
-<section class="text-white text-center d-flex align-items-center" style="background: url('church-bg.jpg') no-repeat center center/cover; height: 90vh;">
+<section class="text-white text-center d-flex align-items-center hero-section">
   <div class="container">
     <h1 class="display-4 fw-bold">Welcome to Faith Center Global</h1>
-    <p class="lead">"Where ministry works</p>
+    <p class="lead">"Where ministry works"</p>
     <a href="about.html" class="btn btn-light me-2">Learn More</a>
-    <a href="contact.html" class="btn btn-warning">Join Us</a>
+    <a href="register.html" class="btn btn-faith">Register Now</a>
   </div>
 </section>
 
@@ -48,7 +68,14 @@
     <h2 class="mb-4">Service Times</h2>
     <p class="mb-1">Sundays 1st service: 10:00AM- 12:00PM</p>
     <p class="mb-1">Sundays 2nd service: 12:00PM-2:00PM</p>
-    <p>Tuesdays – Momoent of Grace: 8:00AM</p>
+    <p>Tuesdays – Moment of Grace: 8:00AM</p>
+    <!-- Add more services here for variety -->
+    <p><!-- Children's Church Praise Hour --></p>
+    <p><!-- Teens Ignite Fire Night --></p>
+    <p><!-- Family & Friends Day --></p>
+    <p><!-- Back-to-School Prayer Bash --></p>
+    <p><!-- Jesus Loves Ice Cream Service --></p>
+    <p><!-- Praise, Popcorn & Prayer --></p>
   </div>
 </section>
 
@@ -88,7 +115,7 @@
 <!-- Footer -->
 <footer class="bg-dark text-white text-center py-4">
   <div class="container">
-    <p class="mb-1">&copy; 2025 Faith center Global. All rights reserved.</p>
+    <p class="mb-1">&copy; 2025 Faith Center Global. All rights reserved.</p>
     <p class="small">Website by <a href="https://peterlight123.github.io/portfolio/" class="text-warning text-decoration-none" target="_blank">Peterlight</a></p>
   </div>
 </footer>
